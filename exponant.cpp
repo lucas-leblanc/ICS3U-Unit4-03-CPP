@@ -33,8 +33,8 @@ int main() {
             }
         }
     } catch (std::invalid_argument) {
-        std::cout << "Invalid input,"
-                  << " please try again following the requirements";
+        std::cout << " "
+                  << "this is not a valid input";
     }
 
     std::cout << "\n\nDone.\n";
