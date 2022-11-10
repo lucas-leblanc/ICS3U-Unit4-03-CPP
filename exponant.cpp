@@ -26,7 +26,7 @@ int main() {
         numberAsInt = std::stoi(inputNumber);
         numberAsFloat = std::stof(inputNumber);
         if (numberAsInt < 0 || numberAsFloat != numberAsInt) {
-            std::cout << "This is not a positive integer.";
+            std::cout << "This is not a positive.";
         } else {
             for (counter = 0; counter <= numberAsInt; counter++) {
                 std::cout << counter << "² = " << pow(counter, 2) << "\n";
