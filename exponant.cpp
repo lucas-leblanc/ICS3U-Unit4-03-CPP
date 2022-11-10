@@ -17,7 +17,7 @@ int main() {
     int counter;
 
     // input
-    std::cout << "Input a positive integer: ";
+    std::cout << "Enter a integer >= 0: ";
     std::cin >> inputNumber;
 
     // process and output
